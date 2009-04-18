@@ -3,7 +3,7 @@
  * JSizes - JQuery plugin v0.32
  *
  * Licensed under the revised BSD License.
- * Copyright 2008, Bram Stein
+ * Copyright 2008-2009 Bram Stein
  * All rights reserved.
  */
 /*global jQuery*/
