@@ -44,7 +44,7 @@
 	 * Returns whether or not an element is visible.
 	 */
 	$.fn.isVisible = function () {
-		return this.css('visibility') !== 'hidden' && this.css('display') !== 'none';
+		return /*this.css('visibility') !== 'hidden' &&*/ this.css('display') !== 'none';
 	};
 
 	/**
