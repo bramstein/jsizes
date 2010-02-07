@@ -22,10 +22,10 @@
 		$.fn[name + 'Size'] = function (value) {
 			var width, height;
 			if (value) {
-				if (isNumber(value.width)) {
+				if (value.width !== undefined) {
 					this.css(name + '-width', value.width);
 				}
-				if (isNumber(value.height)) {
+				if (value.height !== undefined) {
 					this.css(name + '-height', value.height);
 				}
 				return this;
@@ -55,16 +55,16 @@
 	$.each(['border', 'margin', 'padding'], function (i, name) {
 		$.fn[name] = function (value) {
 			if (value) {
-				if (isNumber(value.top)) {
+				if (value.top !== undefined) {
 					this.css(name + '-top' + (name === 'border' ? '-width' : ''), value.top);
 				}
-				if (isNumber(value.bottom)) {
+				if (value.bottom !== undefined) {
 					this.css(name + '-bottom' + (name === 'border' ? '-width' : ''), value.bottom);
 				}
-				if (isNumber(value.left)) {
+				if (value.left !== undefined) {
 					this.css(name + '-left' + (name === 'border' ? '-width' : ''), value.left);
 				}
-				if (isNumber(value.right)) {
+				if (value.right !== undefined) {
 					this.css(name + '-right' + (name === 'border' ? '-width' : ''), value.right);
 				}
 				return this;
