@@ -9,9 +9,6 @@
 (function ($) {
 	var num = function (value) {
 			return parseInt(value, 10) || 0;
-		},
-		isNumber = function (value) {
-			return (typeof value === 'number' || value instanceof Number) && !isNaN(value);
 		};
 
 	/**
