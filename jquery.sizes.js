@@ -1,5 +1,5 @@
-/*!
- * JSizes - JQuery plugin v0.33
+/**
+ * @preserve JSizes - JQuery plugin v0.33
  *
  * Licensed under the revised BSD License.
  * Copyright 2008-2010 Bram Stein
