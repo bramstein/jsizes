@@ -1,4 +1,4 @@
-# JSizes ― jQuery extension plugin for CSS properties
+## JSizes ― jQuery extension plugin for CSS properties
 
 JSizes is a small plugin for the [jQuery JavaScript library](http://jquery.com/) which adds convenience methods for querying and setting the CSS `min-width`, `min-height`, `max-width`, `max-height`, `border-*-width`, `margin`, and `padding` properties. Additionally it has one method for determining whether an element is visible. In total it adds six new methods to the jQuery element API. It internally calls the jQuery built-in `css` method, so syntax and use is identical to calling `css('property-name', ...)`. An example of its use follows.
 
