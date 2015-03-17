@@ -1,0 +1,37 @@
+{
+  "name": "jquery-sizes",
+  "version": "0.33.0",
+  "description": "jQuery extension plugin for CSS properties",
+  "keywords": [
+    "jQuery sizes jsizes"
+  ],
+  "author": {
+    "name": "Bram Stein",
+    "email": "b.l.stein@gmail.com",
+    "url": "http://github.com/bramstein"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+  "homepage": "http://github.com/bramstein/jsizes",
+  "bugs": {
+    "url": "http://github.com/bramstein/jsizes/issues",
+    "email": "b.l.stein@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bramstein/jsizes.git"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "env": "env",
+    "echo": "echo \"\""
+  }
+}
