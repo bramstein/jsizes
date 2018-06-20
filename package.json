@@ -1,5 +1,5 @@
 {
-  "name": "jquery-sizes",
+  "name": "@evidentpoint/jquery-sizes",
   "version": "0.33.0",
   "description": "jQuery extension plugin for CSS properties",
   "main": "lib/jquery.sizes.js",
